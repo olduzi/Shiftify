@@ -29,7 +29,7 @@ UIApplicationDelegate, SPTAppRemoteDelegate {
       self.appRemote.authorizeAndPlayURI(self.playURI)
     }
     
-    let clientIdentifier = "03ca591ad9824a7ea60c9b5b63bef2bb"
+    let clientIdentifier = ""
     let redirectUri = URL(string: "spotify-ios-quick-start://spotify-login-callback")!
     let playURI = "spotify:track:20I6sIOMTCkB6w7ryavxtO"
     
